@@ -1,5 +1,3 @@
-'use server'
-
 import Head from 'next/head';
 import React from 'react';
 import HomePanel from '../app/home/panel';
