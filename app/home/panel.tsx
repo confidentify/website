@@ -1,3 +1,5 @@
+import { KindeStuff } from "../auth/kinde";
+
 export default function HomePanel() {
     return <div className='container'>
         <main>
@@ -6,6 +8,8 @@ export default function HomePanel() {
             <p className='description'>
                 Website is coming up...
             </p>
+
+            <KindeStuff />
         </main>
     </div>
 }
