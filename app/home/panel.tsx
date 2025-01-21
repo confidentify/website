@@ -8,5 +8,8 @@ export default function HomePanel() {
                 Confidence in your data. Identify the customer in the noise.
             </p>
         </main>
+        <footer>
+            © 2025 Confidentify
+        </footer>
     </div>
 }
