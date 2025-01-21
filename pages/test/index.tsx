@@ -1,4 +1,5 @@
 import React from 'react';
+import { KindeStuff } from '../../app/auth/kinde';
 export default function Home() {
     return (
         <div className='container'>
@@ -23,6 +24,8 @@ export default function Home() {
                         Logout URL: {process.env.NEXT_PUBLIC_KINDE_LOGOUT_URL}
                     </code>
                 </div>
+
+                <KindeStuff />
             </main>
         </div>
     );

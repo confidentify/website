@@ -1,4 +1,3 @@
-import { KindeStuff } from "../auth/kinde";
 
 export default function HomePanel() {
     return <div className='container'>
@@ -6,10 +5,8 @@ export default function HomePanel() {
             <h1 className='title'>conf·ident·ify</h1>
 
             <p className='description'>
-                Website is coming up...
+                Confidence in your data. Identify the customer in the noise.
             </p>
-
-            <KindeStuff />
         </main>
     </div>
 }
