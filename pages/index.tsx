@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>conf·ident·ify</title>
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
       <HomePanel />
     </>
