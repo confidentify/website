@@ -1,27 +1,18 @@
-:root{
-  --confidentify-gray:#444;
-  --confidentify-blue:#4635B1;
-  --confidentify-purple:#B771E5;
-  --confidentify-green:#AEEA94;
-  --confidentify-yellow:#FFFBCA;
+:root {
+  --confidentify-gray: #4D4D4D;
+  --confidentify-silver: #DEDEDE;
+  --confidentify-blue: #4635B1;
+  --confidentify-yellow: #FFFBCA;
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
+  color: var(--confidentify-gray);
   font-family:
     Inter,
     -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
     sans-serif;
 }
 
@@ -48,44 +39,6 @@ main {
   align-items: center;
 }
 
-footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer img {
-  margin-left: 0.5rem;
-}
-
-footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  display: inline-block;
-  font-size: 1.1rem;
-  font-family:
-    Menlo,
-    Monaco,
-    Lucida Console,
-    Liberation Mono,
-    DejaVu Sans Mono,
-    Bitstream Vera Sans Mono,
-    Courier New,
-    monospace;
-}
-
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -95,7 +48,11 @@ code {
   align-items: center;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 500;
 }
 
@@ -111,6 +68,11 @@ h1, h2, h3, h4, h5 {
   align-items: center;
 }
 
+.title .dot {
+  font-weight: 200;
+  padding: 0 0.05em;
+}
+
 .tagline {
   text-align: center;
   font-size: 1.5rem;
@@ -118,8 +80,17 @@ h1, h2, h3, h4, h5 {
   border-radius: 0.8rem;
 }
 
-.dot {
-  color: var(--confidentify-gray);
+footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid var(--confidentify-silver);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+footer .dot {
   font-weight: 200;
-  padding: 0em 0.05em;
+  padding: 0 1em;
 }

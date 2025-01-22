@@ -1,15 +1,9 @@
-import Head from 'next/head';
 import React from 'react';
-import HomePanel from '../app/home/panel';
+import { LayoutMain } from '../app/layout/main';
+import { HomePanel } from '../app/home/panel';
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>conf·ident·ify</title>
-        <link rel="icon" href="/logo.svg" />
-      </Head>
-      <HomePanel />
-    </>
-  );
+  return <LayoutMain>
+    <HomePanel />
+  </LayoutMain>
 }
