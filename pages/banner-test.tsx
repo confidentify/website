@@ -50,6 +50,9 @@ export default function BannerTest() {
   }, []);
 
   return <LayoutMain>
+    <h1>Banner test</h1>
+    <div>Before ad</div>
     <div ref={containerRef}></div>
+    <div>After ad</div>
   </LayoutMain>
 }
